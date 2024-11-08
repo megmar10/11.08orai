@@ -1,0 +1,102 @@
+body{
+    background-color: green;
+}
+
+#focim{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+img{
+    /*kép röptetése*/
+    float: left;
+    /*szélesség*/
+    /*width: 50px;*/
+    width: 34%;
+    /*magasság*/
+    /*height: 2cm;*/
+    height: auto;
+}
+
+table, td{
+    /*keretezés*/
+    border: black solid 1px;
+    /*cellea távolságok megszüntetése*/
+    border-collapse: collapse;
+}
+
+table{
+
+    /*float megszüntetése*/
+    /*float: unset;
+    float: none;*/
+    clear: both;
+    /*háttérszín beállítása*/
+    background-color: white;
+}
+
+#elso{
+    /*háttérkép beállítása*/
+    background-image: url("smiley2.png");
+    /*háttérkép méretezése */
+    background-size: contain;
+    /*background-size: cover;*/
+    /*háttérkép ismétlése x és y tengelyen, ne legyen*/
+    background-repeat: no-repeat;
+    /*kép pozíciója x és y tengely szerint*/
+    background-position: center center;
+}
+
+ul>li{
+    /*listajel kép legyen*/
+    list-style-image: url("smiley2.png");
+    /*lista jelölő az elem előtt*/
+    /*list-style-position: outside;*/
+    /*lista jelölő az elemmel*/
+    list-style-position: inside;
+}
+
+ol>li{
+    list-style-type: none;
+    list-style: none;
+}
+
+#szoveg{
+    background-color: white;
+    border: ipx grey solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nagybetu{
+    /*1 megoldás*/
+    /*kiskapitális*/
+    /*font-variant: small-caps;*/
+    /*betűméret*/
+    /*font-size: 130%;*/
+
+    /*2 megoldás*/
+    text-transform: uppercase;
+}
+
+#nagybetus{
+    /*3. megoldás*/
+    text-transform: capitalize;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+
+#szoveg>p{
+    text-indent: 50px;
+    text-align: justify;
+    line-height: 20px;
+}
